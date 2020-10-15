@@ -1,1 +1,94 @@
+/* CSS for the Navigation */
+.navbar-brand {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    height: 100%;
+    min-height: 2.125rem;
+    top:0;
+    font-size: 1.1rem;
+    padding-top: 0.625rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
 
+/* CSS to keep box up the main output and center it */
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    text-align: center;
+}
+
+/* Let's have all the answer boxes be blue - btn-primary */
+#answerOne, #answerTwo, #answerThree, #answerFour {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+/* Keeping with the theme of smurfs, let's keep the button's blue and centered */
+#startButton{
+    text-align: center;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    font-size: 1.5rem;
+}
+
+/* CSS to keep the text centered */
+#buttonDiv{
+    text-align: center;
+}
+#answers{
+    text-align: center;
+}
+#question {
+    text-align: center;
+}
+#master-div {
+    text-align: -webkit-center;
+}
+
+/* Separate out our score */
+#score {
+    margin: 15px 15px 15px 15px;
+    text-align: center
+}
+
+/* CSS for Input-Field to make sure they are centered */
+#input-field {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+/* CSS to keep the Buttons blue */
+#go-back {
+    margin-top: 15px;
+    margin-right: 15px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+#clear-highscores {
+    margin-top: 15px;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+/* Used for listing Highscores */
+td {
+    padding: 5px;
+}        
+        
+/* A Media Query max-width: 960px */
+@media screen and (max-width: 960px) {
+        .container {
+            width: auto;
+            margin: 0 auto;
+        }
+}
